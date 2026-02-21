@@ -1,0 +1,95 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="brand-name">Your Name</span>
+      <span class="brand-tag">UX Researcher | Sociologist</span>
+    </a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav id="site-nav" class="nav" aria-label="Primary">
+      <a href="about.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="writing.html">Writing</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <span class="brand-name">Your Name</span>
+        <span class="brand-tag">UX Researcher | Sociologist</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="writing.html">Writing</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p class="muted">Email is easiest.</p>
+
+        <div class="two-col">
+          <div class="callout">
+            <h3>Say hello</h3>
+            <p class="small">
+              <strong>Email:</strong> you@email.com<br>
+              <strong>LinkedIn:</strong> <a class="link" href="#" target="_blank" rel="noreferrer">linkedin.com/in/yourname</a>
+            </p>
+          </div>
+
+          <form class="form" id="contactForm">
+            <label>
+              Name
+              <input name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+            <p class="muted small" id="formNote">
+              This opens your email client (no backend).
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="small muted">© <span id="year"></span> Your Name</span>
+      <a class="link small" href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
