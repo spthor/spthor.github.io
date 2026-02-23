@@ -1,45 +1,56 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Soumitra Thorat - UX Researcher</title>
-  <meta name="description" content="UX Research portfolio of Soumitra Thorat, PhD Sociologist and qualitative researcher." />
+  <title>Soumitra Thorat</title>
+  <meta name="description" content="Soumitra Thorat - UX Researcher and PhD Sociologist" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav>
-    <div class="nav-container">
-      <a href="index.html" class="nav-brand">Soumitra Thorat</a>
-      <ul class="nav-links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Portfolio</a></li>
-        <li><a href="writing.html">Writing</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="site-name">Soumitra Thorat</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="writing.html">Writing</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-  </nav>
+  </header>
 
-  <section class="hero hero-home">
-    <div class="hero-content">
-      <h1>Soumitra Thorat</h1>
-      <p class="tagline">User Experience Researcher | PhD Sociologist</p>
-      <p>
-        I am a UX Researcher with deep training in qualitative research, ethnography, and interaction analysis.
-        I study how people use technology in real-world settings and turn complex findings into clear product and design decisions.
-      </p>
+  <main class="home">
+    <div class="wrap">
+      <section class="hero-card">
+        <div class="hero-text">
+          <p class="eyebrow">UX Researcher · PhD Sociologist</p>
+          <h1>Research that makes complex systems easier to design.</h1>
+          <p class="lede">
+            I study how people actually use technology in real-world settings, especially where tools, workflows,
+            and institutions overlap. My work combines ethnography, interaction analysis, and practical synthesis
+            to support product, design, and strategy decisions.
+          </p>
 
-      <div class="home-links">
-        <a href="work.html" class="ghost-link">View Portfolio →</a>
-        <a href="about.html" class="ghost-link">About Me →</a>
-        <a href="writing.html" class="ghost-link">Writing & Talks →</a>
-        <a href="contact.html" class="ghost-link">Contact →</a>
-      </div>
+          <div class="cta-row">
+            <a class="btn-primary" href="portfolio.html">View Portfolio</a>
+            <a class="btn-secondary" href="about.html">About Me</a>
+          </div>
+
+          <ul class="quick-links">
+            <li><a href="writing.html">Writing</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <img src="assets/headshot.jpg" alt="Portrait of Soumitra Thorat" />
+        </div>
+      </section>
     </div>
-
-    <div class="hero-image-wrap">
-      <img src="assets/headshot.jpg" alt="Portrait of Soumitra Thorat" class="hero-photo" />
-    </div>
-  </section>
+  </main>
 </body>
 </html>
