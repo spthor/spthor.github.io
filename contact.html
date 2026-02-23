@@ -1,95 +1,41 @@
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="index.html" aria-label="Home">
-      <span class="brand-name">Your Name</span>
-      <span class="brand-tag">UX Researcher | Sociologist</span>
-    </a>
-
-    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-
-    <nav id="site-nav" class="nav" aria-label="Primary">
-      <a href="about.html">About</a>
-      <a href="work.html">Work</a>
-      <a href="writing.html">Writing</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </div>
-</header>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact | Your Name</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Soumitra Thorat</title>
+  <meta name="description" content="Contact Soumitra Thorat." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
-
-  <header class="site-header">
-    <div class="wrap header-inner">
-      <a class="brand" href="index.html" aria-label="Home">
-        <span class="brand-name">Your Name</span>
-        <span class="brand-tag">UX Researcher | Sociologist</span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="nav" aria-label="Primary">
-        <a href="about.html">About</a>
-        <a href="work.html">Work</a>
-        <a href="writing.html">Writing</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Soumitra Thorat</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Portfolio</a></li>
+        <li><a href="writing.html">Writing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <main id="main">
-    <section class="section">
-      <div class="wrap">
-        <h2>Contact</h2>
-        <p class="muted">Email is easiest.</p>
+  <section class="contact-page">
+    <div class="page-container narrow contact-box">
+      <h1>Let’s Connect</h1>
+      <p>Interested in working together or learning more about my research?</p>
 
-        <div class="two-col">
-          <div class="callout">
-            <h3>Say hello</h3>
-            <p class="small">
-              <strong>Email:</strong> you@email.com<br>
-              <strong>LinkedIn:</strong> <a class="link" href="#" target="_blank" rel="noreferrer">linkedin.com/in/yourname</a>
-            </p>
-          </div>
-
-          <form class="form" id="contactForm">
-            <label>
-              Name
-              <input name="name" autocomplete="name" required />
-            </label>
-            <label>
-              Email
-              <input type="email" name="email" autocomplete="email" required />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="5" required></textarea>
-            </label>
-            <button class="btn" type="submit">Send</button>
-            <p class="muted small" id="formNote">
-              This opens your email client (no backend).
-            </p>
-          </form>
-        </div>
+      <div class="contact-links">
+        <a href="mailto:soumitrathorat@gmail.com" class="contact-btn">Email</a>
+        <a href="https://www.linkedin.com/in/soumitra-thorat" class="contact-btn" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="tel:2817049176" class="contact-btn">Call</a>
+        <a href="resume.pdf" class="contact-btn" target="_blank" rel="noreferrer">Resume</a>
       </div>
-    </section>
-  </main>
 
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <span class="small muted">© <span id="year"></span> Your Name</span>
-      <a class="link small" href="index.html">Home</a>
+      <p class="contact-note">
+        Based in Washington, D.C. Open to remote and hybrid opportunities in UX Research, qualitative insights, and research strategy.
+      </p>
     </div>
-  </footer>
-
-  <script src="script.js"></script>
+  </section>
 </body>
 </html>
